@@ -108,6 +108,8 @@ main>section {
 .section-title {
   font-size: 2.8rem;
   font-weight: 700;
+  color: #131313;
+  
 
 }
 
@@ -146,6 +148,48 @@ main>section {
   color: #727272;
   font-size: 1rem;
   font-weight: 400;
+}
+
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.fact-card {
+  border: 1px solid #FF900E;
+  height: 240px;
+  width: 240px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #424242;
+
+
+}
+
+.fact-name {
+  font-size: 1, 25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #727272;
+}
+.fact-description{
+  width: 542;
+  height: 52;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 100px;
+  margin-top: 24px;
 }
 
 
